@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  live_server_lp_next:
+    container_name: live_server_lp_next_father
+    build: .
+    ports:
+      - 8043:8080
+    volumes:
+      - ./:/app
