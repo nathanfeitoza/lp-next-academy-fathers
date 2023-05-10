@@ -2181,7 +2181,7 @@
           >
             <div class="col-md-6">
               <a class="btn button-subscribe" href="#seletiva-buy"
-                >Quero ser o próximo a jogar no exterior →</a
+                >QUERO INSCREVER MEU FILHO →</a
               >
             </div>
           </div>
@@ -2294,7 +2294,7 @@
           >
             <div class="col-md-6">
               <a class="btn button-subscribe" href="#seletiva-buy"
-                >Quero ser o próximo a jogar no exterior →</a
+                >QUERO INSCREVER MEU FILHO →</a
               >
             </div>
           </div>
@@ -2337,7 +2337,7 @@
                 <div class="col-md-12 d-flex align-items-center">
                   <div class="col-md-8">
                     <a class="btn button-subscribe" href="#seletiva-buy"
-                      >Sim, tô pronto. →</a
+                      >QUERO INSCREVER MEU FILHO →</a
                     >
                   </div>
                 </div>
@@ -2525,7 +2525,7 @@
                 <h5 class="card-title col-md-9">
                   Restam apenas 60 vagas por cidade.
                 </h5>
-                <div class="information col-md-9">
+                <div id="seletiva-buy" class="information col-md-9">
                   <div class="subl">
                     <p>
                       Garanta agora mesmo a vaga do seu filho para a seletiva do próximo fim de semana.
@@ -2948,7 +2948,7 @@
         : locationPath[0];
 
       if (locationPath.length > 0) {
-        document.querySelector('.loading-city').style.display = "flex";
+        //document.querySelector('.loading-city').style.display = "flex";
       }
 
       const units = axios
@@ -3027,12 +3027,12 @@
         player.stopVideo();
       }
 
-      document.querySelector('.play-video').addEventListener('click', function() {
+      /*document.querySelector('.play-video').addEventListener('click', function() {
         player.playVideo();
         document.querySelector('#vide-2').style.display = "none";
         document.querySelector('#player').style.display = "block";
         document.querySelector('.button-video-container').style.display = "none";
-      })
+      })*/
       let firstClick = 1;
 
       document.querySelectorAll('a[href="#seletiva-buy"]').forEach((element) => {
